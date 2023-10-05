@@ -1,27 +1,54 @@
 # Teamapp2
+The Team Generator App is an Angular-based application that helps you generate random teams for various purposes, such as group projects, sports teams, or any other team-based activity. It takes a list of participants and divides them into teams of your desired size.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+## Features
 
-## Development server
+- Generate teams with specified team sizes.
+- Randomly assign participants to teams.
+- Easily manage and edit the list of participants.
+- User-friendly interface
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Prerequisites
 
-## Code scaffolding
+Before you begin, ensure you have met the following requirements:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Node.js](https://nodejs.org/) installed on your local machine.
+- [Angular CLI](https://angular.io/cli) installed globally.
 
-## Build
+## Screenshots
+![Screenshot](assets/images/ss1.png)
+![Screenshot](assets/images/ss2.png)
+![Screenshot](assets/images/ss3.png)
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone the repository:
 
-## Running unit tests
+   ```bash
+   git clone https://github.com/Yonis7/teamapp2.git
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Navigate to directory
 
-## Running end-to-end tests
+   ```bash
+   cd teamapp2
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Install dependencies
 
-## Further help
+   ```bash
+    npm install
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. Run the application
+
+   ```bash
+   ng serve
+
+5. Navigate to `http://localhost:4200/` in your browser.
+
+## Contributors
+github.com/Yonis7
+
+## Contact
+github.com/Yonis7
+
+## License
+This project uses the following license: [MIT](https://opensource.org/licenses/MIT).
+
