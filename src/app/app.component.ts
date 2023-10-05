@@ -41,6 +41,12 @@ export class AppComponent {
       return;
     }
 
+    if (this.members.length < this.numberOfTeams) {
+      this.errorMessage = 'Not enough members to create teams.';
+      return;
+    }
+
+    this.errorMessage = '';
     const allMembers = [...this.members];
 
     while (allMembers.length) {
@@ -61,6 +67,7 @@ export class AppComponent {
       }
     }
 
-    console.log(this.teams);
+    this.members = [];
+    this.numberOfTeams = '';
   }
 }
