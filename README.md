@@ -16,9 +16,9 @@ Before you begin, ensure you have met the following requirements:
 - [Angular CLI](https://angular.io/cli) installed globally.
 
 ## Screenshots
-![Screenshot](assets/images/ss1.png)
-![Screenshot](assets/images/ss2.png)
-![Screenshot](assets/images/ss3.png)
+![Screenshot](src/assets/images/ss1.png)
+![Screenshot](src/assets/images/ss2.png)
+![Screenshot](src/assets/images/ss3.png)
 ## Installation
 
 1. Clone the repository:
