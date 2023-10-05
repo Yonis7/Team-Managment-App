@@ -66,3 +66,7 @@ li {
   border-bottom: 0.1rem solid rgba(128, 128, 128, 0.418);
   margin-bottom: 0.5rem;
 }
+
+p {
+  color: red;
+}

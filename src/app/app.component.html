@@ -2,10 +2,16 @@
   <div class="ui card">
     <h1>Team Generator</h1>
     <ul class="list">
-      <li *ngFor="let member of members">{{member}}</li>
+      <li *ngFor="let member of members">{{ member }}</li>
     </ul>
     <div class="add-members-container">
-      <input #addMemberInput type="text" placeholder="Name"(input)="onInput(addMemberInput.value)" />
+      <input
+        #addMemberInput
+        type="text"
+        placeholder="Name"
+        (input)="onInput(addMemberInput.value)"
+        [value]="newMemberName"
+      />
       <button (click)="addMember()">Add Member</button>
     </div>
 
@@ -13,5 +19,7 @@
       <input type="text" placeholder="# of teams" />
       <button>Generate</button>
     </div>
+
+    <p *ngIf="errorMessage" class="error-msg">{{errorMessage}}</p>
   </div>
 </div>
